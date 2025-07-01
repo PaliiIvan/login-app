@@ -12,6 +12,7 @@ import { Form } from "./components/Form";
 import { Advertisement } from "./components/Advertisement";
 import { LanguageSelect } from "../../ui-components";
 
+console.log(Logo);
 
 export const LoginPage = () => {
   return (

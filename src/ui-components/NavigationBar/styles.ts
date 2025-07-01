@@ -27,9 +27,18 @@ export const LinksContainer = styled.div`
 
 export const StyledNavLink = styled(NavLink)`
   text-decoration: none;
-  color: var(--link);
+  color: ${({ theme }) => theme.colors.link};
 
   &.active {
     color: #000;
+    position: relative;
+    &:after {
+      position: absolute;
+      content: "";
+      display: block;
+      width: 100%;
+      height: 1.5px;
+      background-color: #000;
+    }
   }
 `;

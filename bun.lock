@@ -12,6 +12,7 @@
         "react-i18next": "^15.5.3",
         "react-router": "^7.6.2",
         "styled-components": "^6.1.19",
+        "vite-plugin-svgr": "^4.3.0",
         "zod": "^3.25.67",
       },
       "devDependencies": {
@@ -34,7 +35,6 @@
         "typescript": "~5.8.3",
         "typescript-eslint": "^8.35.1",
         "vite": "^6.3.5",
-        "vite-plugin-svgr": "^4.3.0",
       },
     },
   },

@@ -19,12 +19,4 @@ export default defineConfig({
     }),
     svgr(),
   ],
-  optimizeDeps: {
-    include: ["**/*.scss"],
-  },
-  css: {
-    modules: {
-      localsConvention: "dashes",
-    },
-  },
 });
