@@ -1,4 +1,3 @@
-import { useRef } from "react";
 import { useEffect, useState } from "react";
 import { TimeCircleContainer } from "./styles";
 

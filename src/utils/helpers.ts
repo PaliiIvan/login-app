@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-unused-vars */
 type MocketFetchResponse = {
   data: {
     message: string;
@@ -6,8 +7,8 @@ type MocketFetchResponse = {
 };
 
 export const mocketFetch = async (
-  url: string,
-  formData: unknown,
+  _url: string,
+  _formData: unknown,
 ): Promise<MocketFetchResponse> => {
   return new Promise((resolve) => {
     setTimeout(() => {

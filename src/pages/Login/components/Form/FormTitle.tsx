@@ -6,7 +6,7 @@ import {
 } from "./styles";
 
 export const FormTitle = () => {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
 
   return (
     <LoginFormTitle>
