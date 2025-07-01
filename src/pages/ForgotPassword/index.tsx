@@ -14,7 +14,7 @@ export const ForgotPasswordPage = () => {
     const { t } = useTranslation();
     return <Card>
         <ForgotPasswordCard>
-            <p>{t('forgot_password_description')}</p>
+            <p>{`${t('forgot_password_description')} :)`}</p>
         </ForgotPasswordCard>
     </Card>;
 };
