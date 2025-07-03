@@ -28,20 +28,20 @@ export const LoginFormCard = styled.div`
     width: 60rem;
   }
   @media (max-width: 1024px) {
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
   }
   @media (max-width: 768px) {
     flex-direction: column;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     border-radius: 0;
   }
 `;
 
 export const LoginFormContainer = styled.div`
   background-color: #fff;
-  height: 100%;
+
   flex: 2;
   border-top-left-radius: 3rem;
   border-bottom-left-radius: 3rem;
@@ -62,6 +62,7 @@ export const AdvertisementCartsContainer = styled.div`
 
   @media (max-width: 768px) {
     border-radius: 0;
+    display: none;
   }
 `;
 

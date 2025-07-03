@@ -1,13 +1,13 @@
 import { z } from "zod";
 
 export const loginSchema = z.object({
-  email: z.string().email({ message: "Invalid email address" }),
+  email: z.string().email({ message: "error_email" }),
   password: z
     .string()
-    .min(8, { message: "Password must be at least 8 characters long" })
-    .regex(/[0-9]/, { message: "Password must contain at least one number" })
+    .min(8, { message: "error_password" })
+    .regex(/[0-9]/, { message: "error_password" })
     .regex(/[!@#$%^&*(),.?":{}|<>]/, {
-      message: "Password must contain at least one special character",
+      message: "error_password",
     }),
 });
 

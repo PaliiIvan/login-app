@@ -21,6 +21,7 @@ export const CardContainer = styled.div`
   @media (max-width: 1024px) {
     height: 100%;
     width: 100%;
+    border-radius: 0;
   }
   @media (max-width: 768px) {
     flex-direction: column;

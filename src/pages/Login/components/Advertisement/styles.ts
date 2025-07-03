@@ -65,5 +65,10 @@ export const AdvertisementContainerImage = styled.div`
     width: 100%;
     height: 100%;
     object-fit: cover;
+
+    @media (max-width: 1024px) {
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
   }
 `;

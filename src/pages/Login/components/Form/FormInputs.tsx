@@ -11,6 +11,7 @@ import { LoginFormInputs, LoginFormInputsForgotPassword } from "./styles";
 
 export const FormInputs = () => {
   const { handleLogIn, isLoading } = useLogInRequest();
+  const { t } = useTranslation();
   const form = useForm({
     defaultValues: {
       email: "",
@@ -19,8 +20,6 @@ export const FormInputs = () => {
     mode: "onChange",
     resolver: zodResolver(loginSchema),
   });
-
-  const { t } = useTranslation();
 
   return (
     <FormProvider {...form}>

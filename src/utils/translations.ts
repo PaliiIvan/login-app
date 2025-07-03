@@ -16,6 +16,9 @@ const en_translations = {
       "It's a joke — you can't forget the password; it doesn't even exist!",
     request_help_title: "If you need help, please contact us.",
     dashboard_description: "One day, something will be here too.",
+    error_email: "Invalid email address",
+    error_password:
+      "Password must be at least 8 characters long and contain at least one number and one special character",
   },
 };
 
@@ -39,6 +42,9 @@ const fr_translations: Translations = {
     dashboard_description: "Un jour, quelque chose sera ici aussi.",
     forgot_password_description:
       "C'est un jeu — vous ne pouvez pas oublier le mot de passe; il n'existe même pas!",
+    error_email: "Adresse email invalide",
+    error_password:
+      "Le mot de passe doit contenir au moins 8 caractères, un chiffre et un caractère spécial",
   },
 };
 
@@ -60,6 +66,9 @@ const de_translations: Translations = {
     dashboard_description: "Eines Tages wird auch hier etwas sein.",
     forgot_password_description:
       "Das ist ein Witz — Sie können das Passwort nicht vergessen; es existiert gar nicht!",
+    error_email: "Ungültige E-Mail-Adresse",
+    error_password:
+      "Das Passwort muss mindestens 8 Zeichen lang sein und mindestens eine Zahl und ein Sonderzeichen enthalten",
   },
 };
 

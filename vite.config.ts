@@ -4,6 +4,11 @@ import svgr from "vite-plugin-svgr";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/login-app/",
+  server: {
+    host: "0.0.0.0",
+  },
+
   plugins: [
     react({
       babel: {

@@ -18,7 +18,8 @@ export const LoginFormTitle = styled.div`
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-top: 4rem;
+
+  min-height: 10rem;
 `;
 
 export const LoginFormTitleText = styled.div`
